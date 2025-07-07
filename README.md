@@ -115,12 +115,6 @@ TypeScript configuration is in `tsconfig.json` with Svelte support.
 ### Vite
 Build configuration is in `vite.config.js` with Svelte and CSS preprocessing.
 
-## 🌙 Dark Mode
-
-Dark mode is automatically supported through:
-- Framework7's built-in dark theme detection
-- Tailwind CSS dark mode utilities
-- CSS custom properties integration
 
 ## 📚 Documentation & Resources
 
