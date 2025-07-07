@@ -40,7 +40,7 @@ A modern, full-stack starter template that combines the best of cross-platform d
 
 3. **Start development server:**
    ```bash
-   npm run dev
+   npm start
    ```
 
 4. **Open your browser** and navigate to the provided localhost URL
