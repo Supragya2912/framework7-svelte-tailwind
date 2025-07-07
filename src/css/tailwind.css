@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Framework7 + Tailwind integration */
+@layer base {
+  :root {
+    --f7-theme-color: #007aff;
+    --f7-theme-color-rgb: 0, 122, 255;
+  }
+}
+
+@layer components {
+  /* Custom component styles that combine Framework7 and Tailwind */
+  .f7-card-tailwind {
+    @apply bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4 m-4;
+  }
+  
+  .f7-button-tailwind {
+    @apply px-4 py-2 rounded-md font-medium transition-colors duration-200;
+  }
+  
+  .f7-button-primary {
+    @apply bg-blue-500 text-white hover:bg-blue-600;
+  }
+  
+  .f7-button-secondary {
+    @apply bg-purple-500 text-white hover:bg-purple-600;
+  }
+} 
